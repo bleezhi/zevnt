@@ -1,0 +1,21 @@
+{
+  "corner_radius": "$radius.window",
+  "border_width": 1,
+  "border_color": "$color.border",
+  "titlebar_height": "$window.titlebar_height",
+  "titlebar_background": "$color.surface",
+  "titlebar_foreground": "$color.text",
+  "active": {
+    "accent_indicator": "$color.blue",
+    "shadow": true
+  },
+  "inactive": {
+    "accent_indicator": "transparent",
+    "shadow": true
+  },
+  "controls": {
+    "close_hover": "$color.danger",
+    "minimize_hover": "$color.surface_overlay",
+    "maximize_hover": "$color.surface_overlay"
+  }
+}
