@@ -55,7 +55,8 @@ def validate(package):
         raise ValueError("manifest must be a JSON object")
     if manifest.get("format") != "ZTM" or manifest.get("format_version") != 1:
         raise ValueError("only ZTM format version 1 is supported")
-    if not re.fullmatch(r"[a-z0-9]+(?:[.-][a-z0-9]+)*", manifest.get("id", "")):
+    theme_id = manifest.get("id")
+    if not isinstance(theme_id, str) or not re.fullmatch(r"[a-z0-9]+(?:[.-][a-z0-9]+)*", theme_id):
         raise ValueError("manifest id is missing or invalid")
     if not isinstance(manifest.get("name"), str) or not manifest["name"].strip():
         raise ValueError("manifest name is missing")
