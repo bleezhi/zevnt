@@ -1,0 +1,16 @@
+{
+  "height": "$taskbar.height",
+  "background": "$color.surface",
+  "opacity": 1,
+  "alignment": "center",
+  "corner_radius": "$radius.panel",
+  "icon_size": "$taskbar.icon_size",
+  "tray_icon_size": 18,
+  "item_gap": "$taskbar.item_gap",
+  "active_indicator": "$color.blue",
+  "hover_background": "$color.surface_elevated",
+  "clock": {
+    "show_date": true,
+    "show_seconds": false
+  }
+}
