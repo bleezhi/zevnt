@@ -1,0 +1,36 @@
+{
+  "spacing": {
+    "xs": 4,
+    "sm": 8,
+    "md": 12,
+    "lg": 16,
+    "xl": 24,
+    "xxl": 32
+  },
+  "radius": {
+    "small": 6,
+    "control": 8,
+    "window": 12,
+    "panel": 16,
+    "pill": 999
+  },
+  "window": {
+    "titlebar_height": 42,
+    "minimum_width": 280,
+    "minimum_height": 160,
+    "resize_border": 6
+  },
+  "taskbar": {
+    "height": 48,
+    "icon_size": 22,
+    "tray_icon_size": 18,
+    "item_gap": 8,
+    "horizontal_padding": 12
+  },
+  "control": {
+    "minimum_height": 34,
+    "button_horizontal_padding": 14,
+    "input_horizontal_padding": 10,
+    "focus_ring_width": 2
+  }
+}
