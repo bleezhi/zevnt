@@ -1,0 +1,27 @@
+{
+  "window_shadow": {
+    "enabled": true,
+    "color": "#99000000",
+    "blur_radius": 24,
+    "spread": 0,
+    "offset_x": 0,
+    "offset_y": 8
+  },
+  "surface": {
+    "transparency": 0,
+    "blur": {
+      "enabled": false,
+      "radius": 18,
+      "fallback": "$surface"
+    }
+  },
+  "border": {
+    "width": 1,
+    "color": "$border"
+  },
+  "fallbacks": {
+    "disable_blur_when_unavailable": true,
+    "disable_transparency_when_unavailable": true,
+    "preserve_contrast": true
+  }
+}
