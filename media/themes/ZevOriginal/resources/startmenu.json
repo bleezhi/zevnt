@@ -1,0 +1,15 @@
+{
+  "width": 640,
+  "maximum_height": 720,
+  "corner_radius": "$radius.panel",
+  "background": "$color.surface",
+  "search": {
+    "enabled": true,
+    "placeholder": "Search apps, settings, and files"
+  },
+  "sections": ["pinned", "recommended", "all_apps"],
+  "footer": {
+    "show_user": true,
+    "show_power": true
+  }
+}
