@@ -1,0 +1,21 @@
+{
+  "motion": {
+    "duration_fast_ms": 100,
+    "duration_normal_ms": 160,
+    "duration_slow_ms": 220,
+    "easing_standard": "cubic-bezier(0.2, 0, 0, 1)",
+    "easing_emphasized": "cubic-bezier(0.2, 0, 0, 1)"
+  },
+  "transitions": {
+    "window_open": "normal",
+    "window_close": "fast",
+    "window_focus": "fast",
+    "panel_open": "normal",
+    "panel_close": "fast",
+    "workspace_switch": "slow"
+  },
+  "reduced_motion": {
+    "duration_scale": 0,
+    "disable_spatial_transitions": true
+  }
+}
