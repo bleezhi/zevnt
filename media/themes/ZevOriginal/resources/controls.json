@@ -1,0 +1,27 @@
+{
+  "button": {
+    "height": "$control.minimum_height",
+    "corner_radius": "$radius.control",
+    "background": "$color.surface_elevated",
+    "foreground": "$color.text",
+    "hover_background": "$color.surface_overlay",
+    "primary_background": "$color.blue",
+    "primary_foreground": "#FFFFFF"
+  },
+  "input": {
+    "height": "$control.minimum_height",
+    "corner_radius": "$radius.control",
+    "background": "$color.graphite",
+    "foreground": "$color.text",
+    "border": "$color.border",
+    "focus_border": "$color.focus"
+  },
+  "focus": {
+    "ring_width": "$control.focus_ring_width",
+    "ring_color": "$color.focus"
+  },
+  "checkbox": {
+    "corner_radius": 4,
+    "checked_background": "$color.blue"
+  }
+}
