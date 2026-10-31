@@ -1,0 +1,36 @@
+{
+  "format": "ZTM",
+  "format_version": 1,
+  "id": "org.zevnt.theme.original",
+  "name": "Zev Original",
+  "version": "1.0.0",
+  "author": "ZevNT Project",
+  "description": "The original ZevNT desktop experience.",
+  "license": "GPL-3.0-or-later",
+  "compatibility": {
+    "zevtheme_min": "0.1.0",
+    "zevtheme_max": null
+  },
+  "resources": {
+    "colors": "resources/colors.json",
+    "typography": "resources/typography.json",
+    "dimensions": "resources/dimensions.json",
+    "effects": "resources/effects.json",
+    "animations": "resources/animations.json",
+    "windows": "resources/windows.json",
+    "taskbar": "resources/taskbar.json",
+    "startmenu": "resources/startmenu.json",
+    "controls": "resources/controls.json"
+  },
+  "assets": {
+    "icons": "assets/icons/",
+    "wallpapers": "assets/wallpapers/"
+  },
+  "capabilities": {
+    "transparency": "optional",
+    "blur": "optional",
+    "shadows": "optional",
+    "reduced_motion": true,
+    "light_mode": true
+  }
+}
