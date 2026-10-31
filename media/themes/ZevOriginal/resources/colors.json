@@ -1,0 +1,48 @@
+{
+  "scheme": "dark",
+  "color": {
+    "graphite": "#111318",
+    "surface": "#1B1F29",
+    "surface_elevated": "#252B38",
+    "surface_overlay": "#303849",
+    "blue": "#438CFF",
+    "violet": "#916BFF",
+    "cyan": "#45D6E8",
+    "text": "#F1F3F8",
+    "text_muted": "#929BAE",
+    "border": "#394253",
+    "focus": "#45D6E8",
+    "danger": "#F16B75",
+    "success": "#55C99A",
+    "warning": "#F2BD63"
+  },
+  "semantic": {
+    "background": "$graphite",
+    "surface": "$surface",
+    "surface_elevated": "$surface_elevated",
+    "surface_overlay": "$surface_overlay",
+    "accent": "$blue",
+    "accent_secondary": "$violet",
+    "accent_tertiary": "$cyan",
+    "foreground": "$text",
+    "foreground_muted": "$text_muted",
+    "outline": "$border",
+    "focus_ring": "$focus"
+  },
+  "light": {
+    "graphite": "#F3F5F9",
+    "surface": "#FFFFFF",
+    "surface_elevated": "#E9EDF5",
+    "surface_overlay": "#DDE3EE",
+    "blue": "#246FE5",
+    "violet": "#7650D8",
+    "cyan": "#087F91",
+    "text": "#171B24",
+    "text_muted": "#5E687A",
+    "border": "#C8D0DE",
+    "focus": "#087F91",
+    "danger": "#B83242",
+    "success": "#187A55",
+    "warning": "#8A5A00"
+  }
+}
